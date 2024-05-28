@@ -1,0 +1,59 @@
+/* ESTILOS DE ENCABEZADOS */
+h1, h2{
+    text-align: center;
+    font-family: "roboto", Arial, Helvetica, sans-serif;  
+}
+
+h1{
+    color: #f7673b;
+}
+
+h2{
+    color: #25909e;
+}
+/* ESTILOS DE CUERPO DE TEXTO */
+.textoNormal, #prueba{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cae9e7;
+    
+}
+/* ESTILOS DEL BODY */
+body{
+    text-align: center;
+    background-color: #23252c;
+    
+}
+/* CONTENEDOR DE LOS RESULTADOS */
+#resultadoscont{
+    width: 80%;
+    max-width: 600px; 
+    margin: 0 15px; 
+    text-align: left;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: solid 3px #1c558a;
+    background-color: #23252c;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.507);
+
+}
+/* APLICANDO ESTILOS AL CONTENEDOR DEL CONTENEDOR DE LOS RESULTADOS Y LA IMAGEN */
+#globalcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
+}
+/* APLICANDO ESTILOS A LA IMAGEN */
+img{
+    width: 23%;
+    height: 23%;
+    min-width: 415px;
+    border-radius: 20px;
+    border: solid 3px #1c558a;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.507);
+    display: none;
+}
+
+/* BUENAS TARDES, PROFESOR. AQUÍ APLIQUÉ UN PAR DE ESTILOS QUE APRENDÍ EN LÍNEA COMO BOX SHADOW, DISPLAY Y MAX Y MIN WIDTH */
